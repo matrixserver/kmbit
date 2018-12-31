@@ -8,8 +8,7 @@
     },
     "files": [
         "README.md",
-        "kmBIT.ts",
-        "kmSensor.ts"
+        "kmBIT.ts"
     ],
     "testFiles": [
         "tests.ts"
