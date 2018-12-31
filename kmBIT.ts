@@ -69,7 +69,7 @@ enum motorCH {
 /**
  * Custom blocks
  */
-//% weight=50 color=#02AFEC icon="\uf136"
+//% weight=50 color=#9cd302 icon="\uf136"
 namespace kmBoard {
       
     /**Motor Block to drives motor forward and backward. The speed motor is adjustable between 0 to 100.
