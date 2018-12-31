@@ -1,11 +1,11 @@
-# kmbit is block package for Robot kit
+# kmBoard is block package for KmBoard Robot kit
 powered by micro:bit
 
-ทดสอบ อ่านฉันหน่อยจ้า
+ทดสอบ
 
-![km-BIT](https://raw.githubusercontent.com/matrixserver/kmbit/master/icon.png)  
+![km-Board](https://raw.githubusercontent.com/matrixserver/kmbit/master/icon.png)  
 
-The package adds support for the [km-BIT](http://krumon-robot.com) conroller board from xxxx [krumon-robot](http://krumon-robot.com).
+The package adds support for the [km-Board](http://krumon-robot.com) conroller board from [krumon-robot](http://krumon-robot.com).
 
 ### micro:bit Pin Assignment
 
