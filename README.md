@@ -1,2 +1,36 @@
-# kmbit
+# kmbit is block package for Robot kit
+powered by micro:bit
+
 ทดสอบ อ่านฉันหน่อยจ้า
+
+![i-BIT](https://raw.githubusercontent.com/matrixserver/kmbit/master/icon.png)  
+
+The package adds support for the [i-BIT](https://inex.co.th/shop/ibit.html) conroller board from Innovative Experiment [INEX](https://inex.co.th).
+
+### micro:bit Pin Assignment
+
+The following micro:bit pins are used for analog and digital sensors, DC motor drivers and servo motors:
+
+* ``P0`` -- Analog Input 0 (micro:bit default)
+* ``P1`` -- Analog Input 1 (micro:bit default)
+* ``P2`` -- Analog Input 2 (micro:bit default)
+* ``P8`` -- Digital Input/Output and AnalogWrite/Servo1
+* ``P12`` -- Digital Input/Output and AnalogWrite/Servo2
+* ``P13`` -- DigitalWrite Pin for DC motor control direction 1
+* ``P14`` -- AnalogWrite Pin for DC motor speed control 1
+* ``P15`` -- DigitalWrite Pin for DC motor control direction 2
+* ``P16`` -- AnalogWrite Pin for DC motor speed control 2
+* ``P19`` -- SCL connected to I2C-based 12-bit ADC chip (ADS7828)
+* ``P20`` -- SDA connected to I2C-based 12-bit ADC chip (ADS7828)
+
+
+
+
+## License
+
+MIT
+
+## Supported targets
+
+* for PXT/microbit
+
