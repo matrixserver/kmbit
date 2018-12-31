@@ -1,0 +1,18 @@
+{
+    "name": "kmBIT",
+    "version": "0.0.1",
+    "description": "KMBit package for microbit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"        
+    },
+    "files": [
+        "README.md",
+        "kmBIT.ts"        
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "yotta": {},
+    "public": true
+}
