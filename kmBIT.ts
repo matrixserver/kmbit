@@ -93,8 +93,4 @@ namespace kmBoard {
            pins.analogWritePin(AnalogPin.P16, motorspeed)
         }
     }
-
-
-//% weight=50 color=#02AFEE icon="\uf136"
-namespace kmSensor {
 }
