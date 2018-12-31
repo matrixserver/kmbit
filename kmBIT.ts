@@ -94,3 +94,7 @@ namespace kmBoard {
         }
     }
 }
+
+//% weight=50 color=#02AFEE icon="\uf136"
+namespace kmSensor {
+}
