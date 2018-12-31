@@ -69,16 +69,16 @@ enum motorCH {
 /**
  * Custom blocks
  */
-//% weight=50 color=#02AFEC icon="\uf137"
-namespace kmBoard {
+//% weight=50 color=#02AFEE icon="\uf136"
+namespace kmSensor {
       
     /**Motor Block to drives motor forward and backward. The speed motor is adjustable between 0 to 100.
       * @param speed percent of maximum speed, eg: 50
       */
-    //% blockId="km_Motor" block="Motor %motor|speed %speed"
+    //% blockId="km_Sensor" block="Sensor %motor|speed %speed"
     //% speed.min=0 speed.max=100
-    //% weight=50
-    export function Motor(Motor: motor, speed: number): void {  
+    //% weight=95
+    export function Sensor(Motor: motor, speed: number): void {  
         let motorspeed = pins.map(speed,0,100,0,1023)     
         if (Motor == motor.Forward) {
            pins.digitalWritePin(DigitalPin.P13, 1)
@@ -94,3 +94,4 @@ namespace kmBoard {
         }
     }
 }
+
