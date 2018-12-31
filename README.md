@@ -5,7 +5,7 @@ powered by micro:bit
 
 ![km-BIT](https://raw.githubusercontent.com/matrixserver/kmbit/master/icon.png)  
 
-The package adds support for the [km-BIT](https://krumon-robot.com) conroller board from xxxx [krumon-robot](https://krumon-robot.com).
+The package adds support for the [km-BIT](http://krumon-robot.com) conroller board from xxxx [krumon-robot](http://krumon-robot.com).
 
 ### micro:bit Pin Assignment
 
