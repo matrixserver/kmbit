@@ -78,36 +78,23 @@ namespace kmBoard {
     //% blockId="km_Motor" block="Motor %motor|speed %speed"
     //% speed.min=0 speed.max=100
     //% weight=50
-    export function Motor(Motor: ibitMotor, speed: number): void {  
+    export function Motor(Motor: motor, speed: number): void {  
         let motorspeed = pins.map(speed,0,100,0,1023)     
-        pins.analogWritePin(AnalogPin.P14, 0)
-        pins.analogWritePin(AnalogPin.P16, 0)
-        pins.analogSetPeriod(AnalogPin.P14, 50)
-        pins.analogSetPeriod(AnalogPin.P16, 50)
-        
-        if (Motor == ibitMotor.Forward) {
+        if (Motor == motor.Forward) {
            pins.digitalWritePin(DigitalPin.P13, 1)
            pins.analogWritePin(AnalogPin.P14, motorspeed)
            pins.digitalWritePin(DigitalPin.P15, 0)
            pins.analogWritePin(AnalogPin.P16, motorspeed)
         }
-        if (Motor == ibitMotor.Backward) {
+        if (Motor == motor.Backward) {
            pins.digitalWritePin(DigitalPin.P13, 0)
            pins.analogWritePin(AnalogPin.P14, motorspeed)
            pins.digitalWritePin(DigitalPin.P15, 1)
            pins.analogWritePin(AnalogPin.P16, motorspeed)
         }
     }
-    /**Motor Block to drives motor forward and backward. The speed motor is adjustable between 0 to 100.
-      * @param speed percent of maximum speed, eg: 50
-      */
-    //% blockId="km_fib" block="fib %value"
-    //% value.min=0 value.max=100
-    //% weight=50	
-	export function fib(value: number): number {
-        return value <= 1 ? value : fib(value - 1) + fib(value - 2);
-    }
 }
+
 //% weight=50 color=#02AFEE icon="\uf136"
 namespace kmSensor {
       
