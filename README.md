@@ -3,9 +3,9 @@ powered by micro:bit
 
 ทดสอบ อ่านฉันหน่อยจ้า
 
-![i-BIT](https://raw.githubusercontent.com/matrixserver/kmbit/master/icon.png)  
+![km-BIT](https://raw.githubusercontent.com/matrixserver/kmbit/master/icon.png)  
 
-The package adds support for the [i-BIT](https://inex.co.th/shop/ibit.html) conroller board from Innovative Experiment [INEX](https://inex.co.th).
+The package adds support for the [km-BIT](https://krumon-robot.com) conroller board from xxxx [krumon-robot](https://krumon-robot.com).
 
 ### micro:bit Pin Assignment
 
