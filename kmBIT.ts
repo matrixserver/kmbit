@@ -126,9 +126,21 @@ namespace kmSensor {
       */
     //% blockId="km_analog" block="Read %ibitReadADC"
     //% weight=60
-    export function ReadADC(ReadADC:ibitReadADC): number{ 
-        let ADCValue:number;
-        pins.i2cWriteNumber(72,ReadADC,NumberFormat.UInt8LE,false)
-        return ReadADC = pins.i2cReadNumber(72, NumberFormat.UInt16BE, false)      
+    export function Analog(ReadADC:ibitReadADC): number{ 
+        //let ADCValue:number;
+        //pins.i2cWriteNumber(72,ReadADC,NumberFormat.UInt8LE,false)
+        //return ReadADC = pins.i2cReadNumber(72, NumberFormat.UInt16BE, false)      
+        return 1
     }    
+
+    /**test function return. 
+      *
+      */
+    //% blockId="km_return" block="Read %ibitReadADC"
+    //% weight=60
+    export function Adc(ReadADC:ibitReadADC): number{ 
+        return 0
+    }    
+
+
 }
