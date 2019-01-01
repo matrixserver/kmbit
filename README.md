@@ -1,4 +1,4 @@
-# kmBoard is block package for KmBoard Robot kit
+# kmBit is block package for KmBoard Robot kit
 
 git push -u origin master
 ทดสอบการซิงค์ 001

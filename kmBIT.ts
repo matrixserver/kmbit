@@ -119,4 +119,16 @@ namespace kmSensor {
            pins.analogWritePin(AnalogPin.P16, motorspeed)
         }
     }
+
+
+    /**ReadADC for read analog sensor, Select ADC channel 0-7. 
+      *
+      */
+    //% blockId="km_analog" block="Read %ibitReadADC"
+    //% weight=60
+    export function ReadADC(ReadADC:ibitReadADC): number{ 
+        let ADCValue:number;
+        pins.i2cWriteNumber(72,ReadADC,NumberFormat.UInt8LE,false)
+        return ReadADC = pins.i2cReadNumber(72, NumberFormat.UInt16BE, false)      
+    }    
 }
