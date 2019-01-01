@@ -1,6 +1,8 @@
 # kmBoard is block package for KmBoard Robot kit
+
 git push -u origin master
-ทดสอบ ครั้งที่5555
+ทดสอบการซิงค์ 001
+
 
 ![km-Board](https://raw.githubusercontent.com/matrixserver/kmbit/master/icon.png)  
 
