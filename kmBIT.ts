@@ -136,7 +136,7 @@ namespace kmSensor {
     /**test function return. 
       *
       */
-    //% blockId="km_return" block="Read %ibitReadADC"
+    //% blockId="km_return" block="Adc %ibitReadADC"
     //% weight=60
     export function Adc(ReadADC:ibitReadADC): number{ 
         return 0
