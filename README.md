@@ -23,7 +23,8 @@ The following micro:bit pins are used for analog and digital sensors, DC motor d
 * ``P19`` -- SCL connected to I2C-based 12-bit ADC chip (ADS7828)
 * ``P20`` -- SDA connected to I2C-based 12-bit ADC chip (ADS7828)
 
-
+ทดสอบการแก้ไขข้อมูลเพิ่มเติม
+ 
 
 
 ## License
