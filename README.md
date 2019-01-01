@@ -35,4 +35,6 @@ MIT
 ## Supported targets
 
 * for PXT/microbit
-
+https://github.com/matrixserver/PXT-MyRobotBit
+https://github.com/matrixserver/PXT-MyServo
+https://github.com/matrixserver/PXT-MySensor
