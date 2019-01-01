@@ -1,5 +1,5 @@
 # kmBoard is block package for KmBoard Robot kit
-ทดสอบ
+ทดสอบ ครั้งที่๒
 
 ![km-Board](https://raw.githubusercontent.com/matrixserver/kmbit/master/icon.png)  
 
