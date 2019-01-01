@@ -120,7 +120,7 @@ namespace kmSensor {
         }
     }
 
-
+ 
     /**ReadADC for read analog sensor, Select ADC channel 0-7. 
       *
       */
